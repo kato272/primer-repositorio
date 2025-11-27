@@ -13,7 +13,7 @@ public class App {
     persona1.setNombre(scanner.nextLine());
     System.out.println("Ingrese la altura de la persona 1:");
     persona1.setAltura(scanner.nextFloat());
-    System.out.println("Ingrese el peso (en kg) de la persona 1:");
+    System.out.println("Ingrese el peso de la persona 1:");
     persona1.setPeso(scanner.nextInt());
     scanner.nextLine(); 
 
@@ -22,7 +22,7 @@ public class App {
     persona2.setNombre(scanner.nextLine());
     System.out.println("Ingrese la altura de la persona 2:");
     persona2.setAltura(scanner.nextFloat());
-    System.out.println("Ingrese el peso (en kg) de la persona 2:");
+    System.out.println("Ingrese el peso de la persona 2:");
     persona2.setPeso(scanner.nextInt());
     scanner.nextLine(); 
 
@@ -31,7 +31,7 @@ public class App {
     persona3.setNombre(scanner.nextLine());
     System.out.println("Ingrese la altura de la persona 3:");
     persona3.setAltura(scanner.nextFloat());
-    System.out.println("Ingrese el peso (en kg) de la persona 3:");
+    System.out.println("Ingrese el peso de la persona 3:");
     persona3.setPeso(scanner.nextInt());
     scanner.nextLine(); 
     
@@ -42,7 +42,7 @@ public class App {
     if (persona3.getAltura() > tallest.getAltura()) {
         tallest = persona3;
     }
-    System.out.println("La persona más alta es: " + tallest.getNombre());
+    System.out.println("La persona mas alta es: " + tallest.getNombre());
 
     Person heaviest = persona1;
     if (persona2.getPeso() > heaviest.getPeso()) {
@@ -51,7 +51,8 @@ public class App {
     if (persona3.getPeso() > heaviest.getPeso()) {
         heaviest = persona3;
     }
-    System.out.println("La persona que más pesa es: " + heaviest.getNombre());
+    System.out.println("La persona que mas pesa es: " + heaviest.getNombre());
 
 }}
+
 
