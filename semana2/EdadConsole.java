@@ -1,6 +1,5 @@
 public class EdadConsole {
     public static void main(String[] args) {
-        // Obtener la consola
         java.io.Console console = System.console();
 
         if (console == null) {
@@ -19,4 +18,5 @@ public class EdadConsole {
 
         System.out.printf("Tienes %d años.\n", edad);
     }
+
 }
