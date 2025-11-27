@@ -3,7 +3,7 @@ public class EdadConsole {
         java.io.Console console = System.console();
 
         if (console == null) {
-            System.out.println("No se puede acceder a la consola.");
+            System.out.println("No existe consola");
             return;
         }
 
@@ -16,7 +16,8 @@ public class EdadConsole {
 
         int edad = actual - nacimiento;
 
-        System.out.printf("Tienes %d años.\n", edad);
+        System.out.printf("Tienes %d años\n", edad);
     }
 
 }
+
