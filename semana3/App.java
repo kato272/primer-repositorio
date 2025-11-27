@@ -8,7 +8,7 @@ public class App {
 
     Person personaprueba = new Person();
     System.out.println(personaprueba.nombre);
-    // Solicitar información para persona1
+        
     System.out.println("Ingrese el nombre de la persona 1:");
     persona1.setNombre(scanner.nextLine());
     System.out.println("Ingrese la altura de la persona 1:");
@@ -17,7 +17,6 @@ public class App {
     persona1.setPeso(scanner.nextInt());
     scanner.nextLine(); 
 
-    // Solicitar información para persona2
     Person persona2 = new Person();
     System.out.println("Ingrese el nombre de la persona 2:");
     persona2.setNombre(scanner.nextLine());
@@ -27,7 +26,6 @@ public class App {
     persona2.setPeso(scanner.nextInt());
     scanner.nextLine(); 
 
-    // Solicitar información para persona3
     Person persona3 = new Person();
     System.out.println("Ingrese el nombre de la persona 3:");
     persona3.setNombre(scanner.nextLine());
@@ -56,3 +54,4 @@ public class App {
     System.out.println("La persona que más pesa es: " + heaviest.getNombre());
 
 }}
+
